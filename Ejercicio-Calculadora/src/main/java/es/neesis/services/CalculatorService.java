@@ -23,4 +23,10 @@ public class CalculatorService implements ICalculatorService {
         }
         return Double.NaN;
     }
+
+    @Override
+    public Boolean isOperationExit(String operation) {
+        return operation.equals("Salir");
+    }
+
 }

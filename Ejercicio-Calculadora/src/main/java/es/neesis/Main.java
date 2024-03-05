@@ -21,6 +21,12 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         String operation = scanner.nextLine();
+
+        Boolean exit = application.isOperationExit(operation);
+        if (exit) {
+            return;
+        }
+
         System.out.println("Introduzca el operando 1: ");
         Double value1 = scanner.nextDouble();
         System.out.println("Introduzca el operando 2: ");

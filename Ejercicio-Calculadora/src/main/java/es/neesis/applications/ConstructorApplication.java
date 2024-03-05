@@ -16,4 +16,8 @@ public class ConstructorApplication {
         return calculatorService.calculateResult(value1, value2, operation);
     }
 
+    public Boolean isOperationExit(String operation) {
+        return calculatorService.isOperationExit(operation);
+    }
+
 }
