@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.03.20 a las 11:17:23 AM CET 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.dataaccess.com/webservicesserver/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.soap.ws.NumbersConversion"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToWords">
+                  
+            <class ref="com.soap.ws.NumbersConversion.NumberToWords"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToWordsResponse">
+                  
+            <class ref="com.soap.ws.NumbersConversion.NumberToWordsResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToDollars">
+                  
+            <class ref="com.soap.ws.NumbersConversion.NumberToDollars"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:NumberToDollarsResponse">
+                  
+            <class ref="com.soap.ws.NumbersConversion.NumberToDollarsResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
